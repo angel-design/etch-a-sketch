@@ -1,0 +1,40 @@
+html, body {
+    padding: 1%;
+    --light: #eee;
+    --dark: #666;
+    --black: #111;
+  }
+  
+  #top {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 3%;
+  }
+  
+  #btn {
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    background-color: var(--light);
+    border: 1px solid var(--dark);
+    cursor: pointer;
+  }
+  
+  #container:empty {
+    border: 0;
+  }
+  
+  #container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--dark);
+  }
+  
+  .row {
+    display: flex;
+    justify-content: between;
+  }
+  
+  .square {
+    border: 1px solid #fff;
+  }
